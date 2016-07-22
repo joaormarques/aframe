@@ -11,8 +11,14 @@
 <a-scene>
     <a-box id="box"  width="10" height="10" depth="10" position="0 0 0" material="color: red; side: back;"></a-box>
     <a-box color="#f46b87" width="1" height="1" depth="1" position="0 0 0" rotation="0 0 0">
-        <a-animation attribute="rotation" dur="10000" direction="alternate" repeat="indefinite" beguine="0" from="0 0 0" to="0 1000 0"></a-animation>
-        <a-animation attribute="position" dur="1000" direction="alternate" repeat="indefinite" beguine="0" from="0 -1 0" to="0 1 0"></a-animation>
+
+        <a-animation attribute="rotation" dur="1000" easing="linear" begin="mouseenter" direction=""
+                        repeat="indefinite" from="0 0 0" to="0 360 0"></a-animation>
+
+        <a-animation attribute="position" dur="1000" easing="linear" begin="mouseenter" direction="alternate"
+                        repeat="indefinite" from="0 0 0" to="0 1 0"></a-animation>
+
+        <a-event name="mouseenter" ></a-event>
     </a-box>
 
     <a-light type="spot" color="white" position="0 3 .7" look-at="" exponent="20"></a-light>
