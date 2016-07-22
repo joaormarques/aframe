@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[look-at="$1" $2]]></content>
+<scope>source.php,text.html</scope>
+    <tabTrigger>look-at</tabTrigger>
+</snippet>

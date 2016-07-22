@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[layout="type: ${1:line};$2"]]></content>
+<scope>source.php,text.html</scope>
+    <tabTrigger>layout</tabTrigger>
+</snippet>

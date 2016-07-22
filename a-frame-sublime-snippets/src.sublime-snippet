@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[src="$1" $2]]></content>
+<scope>source.php,text.html</scope>
+    <tabTrigger>src, source</tabTrigger>
+</snippet>

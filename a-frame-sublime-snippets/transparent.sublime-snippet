@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[transparent="${1:true}" $2]]></content>
+<scope>source.php,text.html</scope>
+    <tabTrigger>transparent</tabTrigger>
+</snippet>

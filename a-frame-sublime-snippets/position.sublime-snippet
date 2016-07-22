@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[position="${1:1 1 1}" $2]]></content>
+<scope>source.php,text.html</scope>
+    <tabTrigger>position</tabTrigger>
+</snippet>

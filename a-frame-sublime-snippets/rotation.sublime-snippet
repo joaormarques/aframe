@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[rotation="${1:0 0 0}" $2]]></content>
+<scope>source.php,text.html</scope>
+    <tabTrigger>rotation</tabTrigger>
+</snippet>
